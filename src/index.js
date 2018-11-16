@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-ReactDOM.render(
-    <span>
-        Image Viewer
-    </span>, 
-    document.getElementById('root')
-);
+
+
+import Controller from './screens/Controller';
+
+ReactDOM.render(<Controller />, document.getElementById('root'));
+
